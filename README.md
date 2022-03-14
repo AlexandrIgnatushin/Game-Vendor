@@ -5,7 +5,8 @@
  <li>HTML</li>
  <li>CSS</li>
  <li>JavaScript</li>
-<li>Адаптивная вёрстка</i>
+ <li>GRID</li>
+ <li>Адаптивная вёрстка</li>
 </ul>
 <hr>
 <h3>Применяя JavaScript реализовал:</h3>
