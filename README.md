@@ -14,3 +14,5 @@
  <li>Звездный рейтинг</li>
  <li>Добавление карточки товара по клику на кнопку</li>
 </ul>
+<hr>
+Демо по ссылке: https://alexandrignatushin.github.io/Game-Vendor/
