@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVendor</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header class="header">
+            <div class="header__banner-wrapper">
+                <div class="header__banner">
+                    <button class="header__banner-btn-left header__banner-disabled"></button>
+                    <a href="#" class="header__banner-link">Refer a friend and get $10 off! 🔥 Offer ends February
+                        27!</a>
+                    <button class="header__banner-btn-right"></button>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <div class="header__main-inner">
+                        <div class="header__location">
+                            <div class="header__location-icon">
+                                <svg width="16" height="18" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.5 7.545h.8-.8ZM8 17l-.446.664a.8.8 0 0 0 .892 0L8 17ZM1.5 7.545H.7h.8ZM8 1v.8V1Zm5.7 6.545c0 2.226-1.44 4.396-3.033 6.089a21.22 21.22 0 0 1-3.052 2.66l-.048.033-.011.007-.002.002L8 17a112.879 112.879 0 0 0 .447.663h.001l.005-.004.017-.011.06-.042.22-.157a22.849 22.849 0 0 0 3.083-2.72c1.657-1.76 3.467-4.319 3.467-7.184h-1.6ZM8 17l.446-.664-.002-.002c-.002 0-.006-.003-.011-.007l-.048-.033a19.077 19.077 0 0 1-.9-.68 21.224 21.224 0 0 1-2.152-1.98C3.74 11.94 2.3 9.77 2.3 7.545H.7c0 2.865 1.81 5.423 3.467 7.185a22.838 22.838 0 0 0 3.302 2.876l.06.042.018.011.005.004h.001c0 .001.001.001.447-.663ZM2.3 7.545c0-1.525.602-2.987 1.671-4.064L2.836 2.353A7.369 7.369 0 0 0 .7 7.545h1.6Zm1.671-4.064A5.677 5.677 0 0 1 8 1.8V.2a7.277 7.277 0 0 0-5.164 2.153l1.135 1.128ZM8 1.8c1.51 0 2.96.604 4.028 1.68l1.136-1.127A7.277 7.277 0 0 0 8 .2v1.6Zm4.028 1.68A5.769 5.769 0 0 1 13.7 7.546h1.6a7.369 7.369 0 0 0-2.136-5.192l-1.136 1.128ZM9.367 7.546c0 .769-.617 1.382-1.367 1.382v1.6a2.974 2.974 0 0 0 2.967-2.982h-1.6ZM8 8.927c-.75 0-1.367-.613-1.367-1.382h-1.6A2.974 2.974 0 0 0 8 10.527v-1.6ZM6.633 7.545c0-.768.617-1.381 1.367-1.381v-1.6a2.974 2.974 0 0 0-2.967 2.981h1.6ZM8 6.164c.75 0 1.367.613 1.367 1.381h1.6A2.974 2.974 0 0 0 8 4.564v1.6Z"
+                                        fill="#101828" />
+                                </svg>
+                            </div>
+                            <a href="#" class="location">Dublin, Republic of Ireland</a>
+                        </div>
+                        <div class="header__logo">
+                            <a href="#" class="logo">
+                                <img src="./img/Logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="header__user-block">
+                            <div class="header__search">
+                                <button class="search">
+                                    <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.434 17.566a.8.8 0 0 0 1.132-1.132l-1.132 1.132ZM13.7 12.568a.8.8 0 0 0-1.131 1.131l1.131-1.131Zm.723-4.457a6.311 6.311 0 0 1-6.31 6.311v1.6a7.911 7.911 0 0 0 7.91-7.91h-1.6Zm-6.31 6.311A6.311 6.311 0 0 1 1.8 8.112H.2a7.911 7.911 0 0 0 7.911 7.91v-1.6ZM1.8 8.112A6.311 6.311 0 0 1 8.111 1.8V.2A7.911 7.911 0 0 0 .2 8.111h1.6ZM8.111 1.8a6.311 6.311 0 0 1 6.311 6.311h1.6A7.911 7.911 0 0 0 8.112.2v1.6Zm9.455 14.634-3.867-3.866-1.131 1.131 3.866 3.867 1.132-1.132Z"
+                                            fill="#101828" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="header__profile">
+                                <button class="profile">
+                                    <svg width="17" height="18" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.8 17a.8.8 0 0 0 1.6 0h-1.6Zm-2.7-5.333v-.8.8Zm-7 0v-.8.8Zm-3.5 3.555H.8h.8ZM.8 17a.8.8 0 0 0 1.6 0H.8Zm15.6 0v-1.778h-1.6V17h1.6Zm0-1.778c0-1.15-.45-2.257-1.255-3.075l-1.14 1.122c.507.516.795 1.218.795 1.953h1.6Zm-1.255-3.075a4.273 4.273 0 0 0-3.045-1.28v1.6c.712 0 1.397.287 1.904.802l1.14-1.122Zm-3.045-1.28h-7v1.6h7v-1.6Zm-7 0c-1.145 0-2.24.462-3.045 1.28l1.14 1.122a2.673 2.673 0 0 1 1.905-.802v-1.6Zm-3.045 1.28A4.384 4.384 0 0 0 .8 15.222h1.6c0-.735.287-1.437.795-1.953l-1.14-1.122ZM.8 15.222V17h1.6v-1.778H.8ZM11.3 4.556c0 1.533-1.221 2.755-2.7 2.755v1.6c2.386 0 4.3-1.962 4.3-4.355h-1.6ZM8.6 7.31c-1.48 0-2.7-1.222-2.7-2.755H4.3c0 2.393 1.913 4.355 4.3 4.355v-1.6ZM5.9 4.556C5.9 3.022 7.12 1.8 8.6 1.8V.2C6.213.2 4.3 2.162 4.3 4.556h1.6ZM8.6 1.8c1.479 0 2.7 1.222 2.7 2.756h1.6C12.9 2.162 10.986.2 8.6.2v1.6Z"
+                                            fill="#101828" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="header__cart">
+                                <button class="cart">
+                                    <svg width="20" height="18" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.2.2a.8.8 0 1 0 0 1.6V.2Zm3.272.8.781-.174A.8.8 0 0 0 4.473.2V1Zm2.193 9.84.785-.158a.748.748 0 0 0-.004-.017l-.78.175Zm1.637 1.303v-.8h-.016l.016.8Zm7.952 0 .015-.8h-.015v.8Zm1.637-1.304-.78-.176a.525.525 0 0 0-.005.02l.785.156ZM19.2 5.048l.78.176a.8.8 0 0 0-.78-.976v.8Zm-13.91-.8a.8.8 0 1 0 0 1.6v-1.6ZM7.764 16.19v.001l-.002.003a.02.02 0 0 1-.006.004.024.024 0 0 1-.01.002v1.6c.886 0 1.618-.713 1.618-1.61h-1.6Zm-.018.01c-.005 0-.008 0-.01-.002a.02.02 0 0 1-.006-.004.01.01 0 0 1-.002-.003s0 .001 0 0h-1.6c0 .896.733 1.609 1.618 1.609v-1.6Zm-.018-.01c0-.001 0 0 0 0l.002-.003a.02.02 0 0 1 .007-.004.024.024 0 0 1 .01-.002v-1.6c-.886 0-1.619.713-1.619 1.61h1.6Zm.018-.009c.005 0 .008 0 .01.002a.02.02 0 0 1 .006.004l.002.003s0-.001 0 0h1.6c0-.896-.732-1.609-1.618-1.609v1.6Zm9.018.01c0 .001 0 0 0 0l-.002.003a.02.02 0 0 1-.006.004.024.024 0 0 1-.01.002v1.6c.886 0 1.618-.713 1.618-1.61h-1.6Zm-.018.009c-.005 0-.008 0-.01-.002a.02.02 0 0 1-.006-.004l-.002-.003s0 .001 0 0h-1.6c0 .896.732 1.609 1.618 1.609v-1.6Zm-.018-.01c0-.001 0 0 0 0l.002-.003a.02.02 0 0 1 .006-.004.024.024 0 0 1 .01-.002v-1.6c-.886 0-1.618.713-1.618 1.61h1.6Zm.018-.009c.005 0 .008 0 .01.002a.02.02 0 0 1 .006.004l.002.003s0-.001 0 0h1.6c0-.896-.732-1.609-1.618-1.609v1.6ZM1.2 1.8h3.272V.2H1.2v1.6Zm2.492-.626 2.192 9.84 1.562-.348L5.253.825l-1.561.348Zm2.189 9.823c.112.559.419 1.06.865 1.414l.996-1.252a.816.816 0 0 1-.292-.477l-1.57.315Zm.865 1.414a2.448 2.448 0 0 0 1.57.532l-.03-1.6a.847.847 0 0 1-.544-.184l-.996 1.252Zm1.556.532h7.952v-1.6H8.302v1.6Zm7.937 0c.57.01 1.126-.177 1.571-.532l-.997-1.252a.847.847 0 0 1-.544.184l-.03 1.6Zm1.571-.532c.446-.355.753-.855.865-1.414l-1.569-.315a.816.816 0 0 1-.293.477l.997 1.252Zm.86-1.395 1.31-5.792-1.56-.353-1.31 5.792 1.56.353Zm.53-6.768H5.29v1.6H19.2v-1.6Z"
+                                            fill="#101828" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="header__hr">
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="header__nav-inner">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item"><a href="#">Discover</a></li>
+                            <li class="header__nav-item"><a href="#">Browse</a></li>
+                            <li class="header__nav-item"><a href="#">Store</a></li>
+                            <li class="header__nav-item"><a href="#">Platforms</a></li>
+                            <li class="header__nav-item"><a href="#">Releases</a></li>
+                            <li class="header__nav-item"><a href="#">Mobile</a></li>
+                            <li class="header__nav-item"><a href="#">Articles</a></li>
+                            <li class="header__nav-item"><a href="#">Blog</a></li>
+                            <li class="header__nav-item"><a href="#">News</a></li>
+                            <li class="header__nav-item"><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="breadcrumb">
+                <div class="container">
+                    <ul class="breadcrumb__list">
+                        <li class="breadcrumb__item"><a href="#">Home</a></li>
+                        <li class="breadcrumb__item"><a href="#">Discover</a></li>
+                        <li class="breadcrumb__item breadcrumb__item_active"><a href="#">Game</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="header-main">
+                <div class="container">
+                    <h1 class="header-main__title">Games</h1>
+                    <div class="header-main__banner">
+                        <div class="header-main__banner-text">
+                            <h2 class="header-main__banner-title">Refer a friends and get $10 off!</h2>
+                            <p class="header-main__banner-description">Connect with friends. Refer a friend and unlock
+                                your $10 coupon! Offer ends February 27.</p>
+                            <button class="header-main__banner-btn">Invite a friend</button>
+                        </div>
+                        <div class="header-main__banner-img">
+                            <img src="./img/bannerPers.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="filter">
+                <div class="container">
+                    <div class="filter-wrapper">
+                        <div class="filter__search-block">
+                            <p class="filter__heading">Search for games</p>
+                            <div class="filter__search filter__elem">
+                                <button class="filter__search-btn">
+                                    <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.434 17.566a.8.8 0 0 0 1.132-1.132l-1.132 1.132ZM13.7 12.568a.8.8 0 0 0-1.131 1.131l1.131-1.131Zm.723-4.457a6.311 6.311 0 0 1-6.31 6.311v1.6a7.911 7.911 0 0 0 7.91-7.91h-1.6Zm-6.31 6.311A6.311 6.311 0 0 1 1.8 8.112H.2a7.911 7.911 0 0 0 7.911 7.91v-1.6ZM1.8 8.112A6.311 6.311 0 0 1 8.111 1.8V.2A7.911 7.911 0 0 0 .2 8.111h1.6ZM8.111 1.8a6.311 6.311 0 0 1 6.311 6.311h1.6A7.911 7.911 0 0 0 8.112.2v1.6Zm9.455 14.634-3.867-3.866-1.131 1.131 3.866 3.867 1.132-1.132Z"
+                                            fill="#98A2B3" />
+                                    </svg>
+                                </button>
+                                <input type="text" class="filter__search-input" placeholder="Search...">
+                            </div>
+                        </div>
+                        <div class="filter__category-block">
+                            <p class="filter__heading">Category</p>
+                            <div class="filter__category filter__elem">
+                                <div class="filter__category-tags">
+                                    <div class="filter__tags">
+                                        <div class="filter__tag filter__tag_1">
+                                            <p class="filter__tag-name">Strategy</p>
+                                            <button class="filter__tag-del"></button>
+                                        </div>
+                                        <div class="filter__tag filter__tag_2">
+                                            <p class="filter__tag-name">RPG</p>
+                                            <button class="filter__tag-del"></button>
+                                        </div>
+                                        <div class="filter__tag filter__tag_num">
+                                            <p class="filter__tag-name">+3</p>
+                                            <button class="filter__tag-del"></button>
+                                        </div>
+                                    </div>
+                                    <button class="filter__open-list"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__sort-block">
+                            <p class="filter__heading">Sort by</p>
+                            <div class="filter__sort filter__elem">
+                                <div class="filter__sort-wrapper">
+                                    <p class="filter__sort-name">Popuar</p>
+                                    <button class="filter__open-list"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__open-btn-wrapper">
+                        <button class="filter__open-btn">
+                            <svg width="18" height="12" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1 .2a.8.8 0 1 0 0 1.6V.2Zm16 1.6a.8.8 0 0 0 0-1.6v1.6ZM3.667 5.2a.8.8 0 1 0 0 1.6V5.2Zm10.666 1.6a.8.8 0 1 0 0-1.6v1.6Zm-8 3.4a.8.8 0 0 0 0 1.6v-1.6Zm5.334 1.6a.8.8 0 0 0 0-1.6v1.6ZM1 1.8h16V.2H1v1.6Zm2.667 5h10.666V5.2H3.667v1.6Zm2.666 5h5.334v-1.6H6.333v1.6Z"
+                                    fill="#101828" />
+                            </svg>
+                            <span>Filter</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="tags">
+                <div class="container">
+                    <div class="tags__wrapper">
+                        <div class="tags__item">
+                            <p class="tags__item-name">Strategy</p>
+                            <button class="tags__item-del"></button>
+                        </div>
+                        <div class="tags__item">
+                            <p class="tags__item-name">RPG</p>
+                            <button class="tags__item-del"></button>
+                        </div>
+                        <div class="tags__item">
+                            <p class="tags__item-name">Action</p>
+                            <button class="tags__item-del"></button>
+                        </div>
+                        <div class="tags__item">
+                            <p class="tags__item-name">Shooter</p>
+                            <button class="tags__item-del"></button>
+                        </div>
+                        <div class="tags__item tags__clear-all">
+                            <p class="tags__item-name">Clear all</p>
+                            <button class="tags__item-del"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="catalog">
+                <div class="container">
+                    <div class="catalog__wrapper">
+                        <div class="catalog__add-card">
+                            <div class="catalog__add-card-content">
+                                <p class="catalog__add-card-description">
+                                    You can add a product card by clicking on the button
+                                </p>
+                                <button class="catalog__add-card-btn">
+                                    <svg width="18" height="19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.8 6.3a.8.8 0 1 0-1.6 0h1.6Zm-1.6 6.4a.8.8 0 0 0 1.6 0H8.2Zm-2.4-4a.8.8 0 1 0 0 1.6V8.7Zm6.4 1.6a.8.8 0 0 0 0-1.6v1.6Zm4-.8A7.2 7.2 0 0 1 9 16.7v1.6a8.8 8.8 0 0 0 8.8-8.8h-1.6ZM9 16.7a7.2 7.2 0 0 1-7.2-7.2H.2A8.8 8.8 0 0 0 9 18.3v-1.6ZM1.8 9.5A7.2 7.2 0 0 1 9 2.3V.7A8.8 8.8 0 0 0 .2 9.5h1.6ZM9 2.3a7.2 7.2 0 0 1 7.2 7.2h1.6A8.8 8.8 0 0 0 9 .7v1.6Zm-.8 4v6.4h1.6V6.3H8.2Zm-2.4 4h6.4V8.7H5.8v1.6Z"
+                                            fill="#fff" />
+                                    </svg>
+                                    <span>Add card</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/saintsrow-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/saintsrow-320.png"
+                                        media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/saintsrow.png" alt="Saints Row">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action-rpg">
+                                    <span>Action RPG</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Saints Row</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">0</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Platinum Edition</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/paladins-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/paladins-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/paladins-320.png" alt="Paladins">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag multiplayer-rpg">
+                                    <span>Multiplayer RPG</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Paladins</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Get the Captain Price Operator included with purchase</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-free">Free</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/farcry6-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/farcry6-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/farcry6-320.png" alt="Far Cry 6">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action">
+                                    <span>Action</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Far Cry 6</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>In-Game Content</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/callofduty-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/callofduty-320.png"
+                                        media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/callofduty-320.png" alt="Call of Duty: Warzone">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag shooter">
+                                    <span>Shooter</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Call of Duty: Warzone</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">3</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Get the Captain Price Operator included with purchase</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/wow-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/wow-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/wow-320.png"
+                                        alt="World of Warcraft: Shadowlands">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action">
+                                    <span>Action</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">World of Warcraft: Shadowlands</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">3.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Includes access to World of Warcraft, Burning Crusade Classic, and WoW Classic!
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-free">Free</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/fortnite-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/fortnite-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/fortnite-320.png" alt="Fortnite">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag shooter">
+                                    <span>Shooter</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Fortnite</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Get the Captain Price Operator included with purchase</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/horizon-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/horizon-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/horizon-320.png" alt="Horizon: Forbidden West">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action-rpg">
+                                    <span>Action RPG</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Horizon: Forbidden West</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Platinum Edition</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/nfs-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/nfs-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/nfs-320.png" alt="Need for Speed: Heat">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action">
+                                    <span>Action</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Need for Speed: Heat</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Platinum Edition</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/spider-morales-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/spider-morales-320.png"
+                                        media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/spider-morales-320.png"
+                                        alt="Spider-Man: Miles Morales">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action">
+                                    <span>Action</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Spider-Man: Miles Morales</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">3</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Get the Captain Price Operator included with purchase</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/witcher-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/witcher-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/witcher-320.png" alt="Witcher 3: Wild Hunt">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag card-game">
+                                    <span>Card Game</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Witcher 3: Wild Hunt</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Will only be usable in the new Classic Format when it is released</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/guardians-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/guardians-320.png"
+                                        media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/guardians-320.png" alt="Guardians of the Galaxy">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag shooter">
+                                    <span>Shooter</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Guardians of the Galaxy</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">3</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>In-Game Content</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/crash-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/crash-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/crash-320.png" alt="Crash Team Racing">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag shooter">
+                                    <span>Shooter</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Crash Team Racing</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Get the Captain Price Operator included with purchase</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-old-price">$1,299</span>
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                                <div class="discount">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/spider-man-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/spider-man-320.png"
+                                        media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/spider-man-320.png" alt="Spider-Man">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag multiplayer-rpg">
+                                    <span>Multiplayer RPG</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Spider-Man</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">4.5</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Includes access to World of Warcraft, Burning Crusade Classic, and WoW Classic!
+                                    </p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                                <div class="catalog__item-price">
+                                    <span class="catalog__item-current-price">$649</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-img">
+                                <picture>
+                                    <source srcset="./img/catalog-img-256/non-img-256.png"
+                                        media="(min-width: 1200px),(max-width: 344px)">
+                                    <source srcset="./img/catalog-img-320/non-img-320.png" media="(max-width: 1200px)">
+                                    <img srcset="./img/catalog-img-320/non-img-320.png" alt="Dragon Age 5">
+                                </picture>
+                            </div>
+                            <div class="catalog__item-main">
+                                <div class="catalog__item-tag action-rpg">
+                                    <span>Action RPG</span>
+                                </div>
+                                <h3 class="catalog__item-title"><a href="#">Dragon Age 5</a></h3>
+                                <div class="catalog__item-rating">
+                                    <div class="catalog__item-rating-body">
+                                        <div class="catalog__item-rating-active"></div>
+                                        <div class="catalog__item-rating-stars">
+                                            <input type="radio" class="catalog__item-rating-star" value="1" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="2" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="3" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="4" name="star">
+                                            <input type="radio" class="catalog__item-rating-star" value="5" name="star">
+                                        </div>
+                                    </div>
+                                    <div class="catalog__item-rating-value">0</div>
+                                </div>
+                                <div class="catalog__item-description">
+                                    <p>Non released</p>
+                                </div>
+                            </div>
+                            <hr class="catalog__item-hr">
+                            <div class="catalog__item-block-price">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__pagination">
+                        <nav class="catalog__pagination-nav">
+                            <ul class="catalog__pagination-list">
+                                <li><a class="catalog__pagination-btn-prev pagination-btn-disabled" href="#"></a></li>
+                                <li><a class="catalog__pagination-item pagination-current" href="#">1</a></li>
+                                <li><a class="catalog__pagination-item" href="#">2</a></li>
+                                <li><a class="catalog__pagination-item" href="#">3</a></li>
+                                <li><a class="catalog__pagination-item" href="#">4</a></li>
+                                <li><a class="catalog__pagination-item" href="#">5</a></li>
+                                <li><span class="catalog__pagination-three-dots">...</span></a></li>
+                                <li><a class="catalog__pagination-item pagination-max" href="#">99</a></li>
+                                <li><a class="catalog__pagination-btn-next" href="#"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="catalog__show-more">
+                        <button class="catalog__show-more-btn">Show more</button>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="container">
+                    <div class="faq__header">
+                        <h2 class="faq__title">Frequently asked questions</h2>
+                        <p class="faq__sub-title">Everything you need to know about the games.</p>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__main">
+                            <div class="faq__question">
+                                <button class="faq__btn faq__question-btn">
+                                    <span>How does work?</span>
+                                    <svg width="18" height="19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.8 6.3a.8.8 0 1 0-1.6 0h1.6Zm-1.6 6.4a.8.8 0 0 0 1.6 0H8.2Zm-2.4-4a.8.8 0 1 0 0 1.6V8.7Zm6.4 1.6a.8.8 0 0 0 0-1.6v1.6Zm4-.8A7.2 7.2 0 0 1 9 16.7v1.6a8.8 8.8 0 0 0 8.8-8.8h-1.6ZM9 16.7a7.2 7.2 0 0 1-7.2-7.2H.2A8.8 8.8 0 0 0 9 18.3v-1.6ZM1.8 9.5A7.2 7.2 0 0 1 9 2.3V.7A8.8 8.8 0 0 0 .2 9.5h1.6ZM9 2.3a7.2 7.2 0 0 1 7.2 7.2h1.6A8.8 8.8 0 0 0 9 .7v1.6Zm-.8 4v6.4h1.6V6.3H8.2Zm-2.4 4h6.4V8.7H5.8v1.6Z"
+                                            fill="#7F56D9" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <hr class="faq__hr">
+                            <div class="faq__answer">
+                                <button class="faq__btn faq__answer-btn">
+                                    <span>What is a game?</span>
+                                    <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.8 8.2a.8.8 0 1 0 0 1.6V8.2Zm6.4 1.6a.8.8 0 0 0 0-1.6v1.6Zm4-.8A7.2 7.2 0 0 1 9 16.2v1.6A8.8 8.8 0 0 0 17.8 9h-1.6ZM9 16.2A7.2 7.2 0 0 1 1.8 9H.2A8.8 8.8 0 0 0 9 17.8v-1.6ZM1.8 9A7.2 7.2 0 0 1 9 1.8V.2A8.8 8.8 0 0 0 .2 9h1.6ZM9 1.8A7.2 7.2 0 0 1 16.2 9h1.6A8.8 8.8 0 0 0 9 .2v1.6Zm-3.2 8h6.4V8.2H5.8v1.6Z"
+                                            fill="#7F56D9" />
+                                    </svg>
+                                </button>
+                                <p class="faq__answer-text">
+                                    A video game or computer game is an electronic game that involves interaction with a
+                                    user interface or input device – such as a joystick, controller, keyboard, or motion
+                                    sensing device – to generate visual feedback. This feedback is shown on a video
+                                    display
+                                    device, such as a TV set, monitor, touchscreen, or virtual reality headset. A video
+                                    game
+                                    or computer game is an electronic game that involves interaction with a user
+                                    interface
+                                    or input device – such as a joystick, controller, keyboard, or motion sensing device
+                                    –
+                                    to generate visual feedback. This feedback is shown on a video display device, such
+                                    as a
+                                    TV set, monitor, touchscreen, or virtual reality headset.
+                                </p>
+                                <ul class="faq__answer-list">
+                                    <li><span>motion sensing device,</span></li>
+                                    <li><span>controller,</span></li>
+                                    <li><span>keyboard,</span></li>
+                                    <li><span>joystick.</span></li>
+                                </ul>
+                                <div class="faq__feedback">
+                                    <div class="faq__feedback-title">Visual feedback.</div>
+                                    <p class="faq__feedback-text">A video game or computer game is an electronic game
+                                        that
+                                        involves interaction with a user interface or input device – such as a joystick,
+                                        controller, keyboard, or motion sensing device – to generate visual feedback.
+                                    </p>
+                                </div>
+                                <hr class="faq__hr">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__main">
+                            <div class="faq__question">
+                                <button class="faq__btn faq__question-btn">
+                                    <span>Is there a free trial available?</span>
+                                    <svg width="18" height="19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.8 6.3a.8.8 0 1 0-1.6 0h1.6Zm-1.6 6.4a.8.8 0 0 0 1.6 0H8.2Zm-2.4-4a.8.8 0 1 0 0 1.6V8.7Zm6.4 1.6a.8.8 0 0 0 0-1.6v1.6Zm4-.8A7.2 7.2 0 0 1 9 16.7v1.6a8.8 8.8 0 0 0 8.8-8.8h-1.6ZM9 16.7a7.2 7.2 0 0 1-7.2-7.2H.2A8.8 8.8 0 0 0 9 18.3v-1.6ZM1.8 9.5A7.2 7.2 0 0 1 9 2.3V.7A8.8 8.8 0 0 0 .2 9.5h1.6ZM9 2.3a7.2 7.2 0 0 1 7.2 7.2h1.6A8.8 8.8 0 0 0 9 .7v1.6Zm-.8 4v6.4h1.6V6.3H8.2Zm-2.4 4h6.4V8.7H5.8v1.6Z"
+                                            fill="#7F56D9" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <hr class="faq__hr">
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__main">
+                            <div class="faq__question">
+                                <button class="faq__btn faq__question-btn">
+                                    <span>How does billing work?</span>
+                                    <svg width="18" height="19" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.8 6.3a.8.8 0 1 0-1.6 0h1.6Zm-1.6 6.4a.8.8 0 0 0 1.6 0H8.2Zm-2.4-4a.8.8 0 1 0 0 1.6V8.7Zm6.4 1.6a.8.8 0 0 0 0-1.6v1.6Zm4-.8A7.2 7.2 0 0 1 9 16.7v1.6a8.8 8.8 0 0 0 8.8-8.8h-1.6ZM9 16.7a7.2 7.2 0 0 1-7.2-7.2H.2A8.8 8.8 0 0 0 9 18.3v-1.6ZM1.8 9.5A7.2 7.2 0 0 1 9 2.3V.7A8.8 8.8 0 0 0 .2 9.5h1.6ZM9 2.3a7.2 7.2 0 0 1 7.2 7.2h1.6A8.8 8.8 0 0 0 9 .7v1.6Zm-.8 4v6.4h1.6V6.3H8.2Zm-2.4 4h6.4V8.7H5.8v1.6Z"
+                                            fill="#7F56D9" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <hr class="faq__hr">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__subscribe">
+                    <div class="footer__subscribe-description">
+                        <h3 class="footer__title">Join our newsletter</h3>
+                        <p class="footer__sub-title">We’ll send you a nice letter one per week. No spam.</p>
+                    </div>
+                    <div class="footer__subscribe-email">
+                        <input class="footer__input-email" type="email" placeholder="Enter email">
+                        <button class="footer__subscribe-btn">Subscribe</button>
+                    </div>
+                </div>
+                <hr class="footer__hr">
+                <div class="footer__nav-wrapper">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Categories</h3>
+                            <ul class="footer__nav-item">
+                                <li>Strategy</li>
+                                <li>Action</li>
+                                <li>Shooter</li>
+                                <li>Card Game</li>
+                                <li>Simulator</li>
+                                <li>RPG</li>
+                                <li>Multiplayer</li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Company</h3>
+                            <ul class="footer__nav-item">
+                                <li>About us</li>
+                                <li>Careers</li>
+                                <li>Press</li>
+                                <li>News</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Legal</h3>
+                            <ul class="footer__nav-item">
+                                <li>Terms</li>
+                                <li>Privacy</li>
+                                <li>Cookies</li>
+                                <li>Licenses</li>
+                                <li>Settings</li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Legal</h3>
+                            <ul class="footer__nav-item">
+                                <li>Twitter</li>
+                                <li>Facebook</li>
+                                <li>Dribbble</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer__copyrights">
+                    <p class="footer__copyrights-text">Copyright © GameVendor, 2022</p>
+                </div>
+            </div>
+        </footer>
+        <div class="navigation-bar">
+            <div class="container">
+                <nav class="navigation-bar__wrapper">
+                    <a href="#" class="navigation-bar__item navigation-bar__item_active">
+                        <svg class="navigation-bar__icon" width="16" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m1 6.6-.5-.625a.8.8 0 0 0-.3.625H1ZM8 1l.5-.625a.8.8 0 0 0-1 0L8 1Zm7 5.6h.8a.8.8 0 0 0-.3-.625L15 6.6ZM1 15.4H.2 1ZM4.867 17a.8.8 0 0 0 1.6 0h-1.6Zm.8-8v-.8a.8.8 0 0 0-.8.8h.8Zm4.666 0h.8a.8.8 0 0 0-.8-.8V9Zm-.8 8a.8.8 0 0 0 1.6 0h-1.6ZM1.5 7.225l7-5.6-1-1.25-7 5.6 1 1.25Zm6-5.6 7 5.6 1-1.25-7-5.6-1 1.25ZM14.2 6.6v8.8h1.6V6.6h-1.6Zm0 8.8c0 .22-.085.425-.23.574l1.148 1.115c.44-.452.682-1.06.682-1.689h-1.6Zm-.23.574a.734.734 0 0 1-.526.226v1.6c.633 0 1.234-.259 1.674-.711l-1.147-1.115Zm-.526.226H2.556v1.6h10.888v-1.6Zm-10.888 0a.734.734 0 0 1-.527-.226L.882 17.089c.44.453 1.041.711 1.674.711v-1.6Zm-.527-.226A.824.824 0 0 1 1.8 15.4H.2c0 .63.243 1.237.682 1.689l1.147-1.115ZM1.8 15.4V6.6H.2v8.8h1.6ZM6.467 17V9h-1.6v8h1.6Zm-.8-7.2h4.666V8.2H5.667v1.6ZM9.533 9v8h1.6V9h-1.6Z"
+                                fill="#101828" />
+                        </svg>
+                        <span class="navigation-bar__text">Home</span>
+                    </a>
+                    <a href="#" class="navigation-bar__item">
+                        <svg class="navigation-bar__icon" width="19" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m12.792 5.608.76.253a.8.8 0 0 0-1.013-1.012l.253.759Zm-1.696 5.088.253.759a.8.8 0 0 0 .506-.506l-.759-.253Zm-5.088 1.696-.759-.253a.8.8 0 0 0 1.012 1.012l-.253-.759Zm1.696-5.088-.253-.759a.8.8 0 0 0-.506.506l.76.253ZM16.6 9a7.2 7.2 0 0 1-7.2 7.2v1.6A8.8 8.8 0 0 0 18.2 9h-1.6Zm-7.2 7.2A7.2 7.2 0 0 1 2.2 9H.6a8.8 8.8 0 0 0 8.8 8.8v-1.6ZM2.2 9a7.2 7.2 0 0 1 7.2-7.2V.2A8.8 8.8 0 0 0 .6 9h1.6Zm7.2-7.2A7.2 7.2 0 0 1 16.6 9h1.6A8.8 8.8 0 0 0 9.4.2v1.6Zm2.633 3.555-1.696 5.088 1.518.506 1.696-5.088-1.518-.506Zm-1.19 4.582-5.088 1.696.506 1.518 5.088-1.696-.506-1.518Zm-4.076 2.708 1.696-5.088-1.518-.506-1.696 5.088 1.518.506Zm1.19-4.582 5.088-1.696-.506-1.518-5.088 1.696.506 1.518Z"
+                                fill="#101828" />
+                        </svg>
+                        <span class="navigation-bar__text">Browse</span>
+                    </a>
+                    <a href="#" class="navigation-bar__item">
+                        <svg class="navigation-bar__icon" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.434 17.566a.8.8 0 0 0 1.132-1.132l-1.132 1.132ZM13.7 12.568a.8.8 0 0 0-1.131 1.131l1.131-1.131Zm.723-4.457a6.311 6.311 0 0 1-6.31 6.311v1.6a7.911 7.911 0 0 0 7.91-7.91h-1.6Zm-6.31 6.311A6.311 6.311 0 0 1 1.8 8.112H.2a7.911 7.911 0 0 0 7.911 7.91v-1.6ZM1.8 8.112A6.311 6.311 0 0 1 8.111 1.8V.2A7.911 7.911 0 0 0 .2 8.111h1.6ZM8.111 1.8a6.311 6.311 0 0 1 6.311 6.311h1.6A7.911 7.911 0 0 0 8.112.2v1.6Zm9.455 14.634-3.867-3.866-1.131 1.131 3.866 3.867 1.132-1.132Z"
+                                fill="#101828" />
+                        </svg>
+                        <span class="navigation-bar__text">Search</span>
+                    </a>
+                    <a href="#" class="navigation-bar__item">
+                        <svg class="navigation-bar__icon" width="17" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.8 17a.8.8 0 0 0 1.6 0h-1.6Zm-2.7-5.333v-.8.8Zm-7 0v-.8.8Zm-3.5 3.555H.8h.8ZM.8 17a.8.8 0 0 0 1.6 0H.8Zm15.6 0v-1.778h-1.6V17h1.6Zm0-1.778c0-1.15-.45-2.257-1.255-3.075l-1.14 1.122c.507.516.795 1.218.795 1.953h1.6Zm-1.255-3.075a4.273 4.273 0 0 0-3.045-1.28v1.6c.712 0 1.397.287 1.904.802l1.14-1.122Zm-3.045-1.28h-7v1.6h7v-1.6Zm-7 0c-1.145 0-2.24.462-3.045 1.28l1.14 1.122a2.673 2.673 0 0 1 1.905-.802v-1.6Zm-3.045 1.28A4.384 4.384 0 0 0 .8 15.222h1.6c0-.735.287-1.437.795-1.953l-1.14-1.122ZM.8 15.222V17h1.6v-1.778H.8ZM11.3 4.556c0 1.533-1.221 2.755-2.7 2.755v1.6c2.386 0 4.3-1.962 4.3-4.355h-1.6ZM8.6 7.31c-1.48 0-2.7-1.222-2.7-2.755H4.3c0 2.393 1.913 4.355 4.3 4.355v-1.6ZM5.9 4.556C5.9 3.022 7.12 1.8 8.6 1.8V.2C6.213.2 4.3 2.162 4.3 4.556h1.6ZM8.6 1.8c1.479 0 2.7 1.222 2.7 2.756h1.6C12.9 2.162 10.986.2 8.6.2v1.6Z"
+                                fill="#101828" />
+                        </svg>
+                        <span class="navigation-bar__text">Account</span>
+                    </a>
+                    <a href="#" class="navigation-bar__item">
+                        <svg class="navigation-bar__icon" width="20" height="18" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.2.2a.8.8 0 1 0 0 1.6V.2Zm3.272.8.781-.174A.8.8 0 0 0 4.473.2V1Zm2.193 9.84.785-.158a.748.748 0 0 0-.004-.017l-.78.175Zm1.637 1.303v-.8h-.016l.016.8Zm7.952 0 .015-.8h-.015v.8Zm1.637-1.304-.78-.176a.525.525 0 0 0-.005.02l.785.156ZM19.2 5.048l.78.176a.8.8 0 0 0-.78-.976v.8Zm-13.91-.8a.8.8 0 1 0 0 1.6v-1.6ZM7.764 16.19v.001l-.002.003a.02.02 0 0 1-.006.004.024.024 0 0 1-.01.002v1.6c.886 0 1.618-.713 1.618-1.61h-1.6Zm-.018.01c-.005 0-.008 0-.01-.002a.02.02 0 0 1-.006-.004.01.01 0 0 1-.002-.003s0 .001 0 0h-1.6c0 .896.733 1.609 1.618 1.609v-1.6Zm-.018-.01c0-.001 0 0 0 0l.002-.003a.02.02 0 0 1 .007-.004.024.024 0 0 1 .01-.002v-1.6c-.886 0-1.619.713-1.619 1.61h1.6Zm.018-.009c.005 0 .008 0 .01.002a.02.02 0 0 1 .006.004l.002.003s0-.001 0 0h1.6c0-.896-.732-1.609-1.618-1.609v1.6Zm9.018.01c0 .001 0 0 0 0l-.002.003a.02.02 0 0 1-.006.004.024.024 0 0 1-.01.002v1.6c.886 0 1.618-.713 1.618-1.61h-1.6Zm-.018.009c-.005 0-.008 0-.01-.002a.02.02 0 0 1-.006-.004l-.002-.003s0 .001 0 0h-1.6c0 .896.732 1.609 1.618 1.609v-1.6Zm-.018-.01c0-.001 0 0 0 0l.002-.003a.02.02 0 0 1 .006-.004.024.024 0 0 1 .01-.002v-1.6c-.886 0-1.618.713-1.618 1.61h1.6Zm.018-.009c.005 0 .008 0 .01.002a.02.02 0 0 1 .006.004l.002.003s0-.001 0 0h1.6c0-.896-.732-1.609-1.618-1.609v1.6ZM1.2 1.8h3.272V.2H1.2v1.6Zm2.492-.626 2.192 9.84 1.562-.348L5.253.825l-1.561.348Zm2.189 9.823c.112.559.419 1.06.865 1.414l.996-1.252a.816.816 0 0 1-.292-.477l-1.57.315Zm.865 1.414a2.448 2.448 0 0 0 1.57.532l-.03-1.6a.847.847 0 0 1-.544-.184l-.996 1.252Zm1.556.532h7.952v-1.6H8.302v1.6Zm7.937 0c.57.01 1.126-.177 1.571-.532l-.997-1.252a.847.847 0 0 1-.544.184l-.03 1.6Zm1.571-.532c.446-.355.753-.855.865-1.414l-1.569-.315a.816.816 0 0 1-.293.477l.997 1.252Zm.86-1.395 1.31-5.792-1.56-.353-1.31 5.792 1.56.353Zm.53-6.768H5.29v1.6H19.2v-1.6Z"
+                                fill="#101828" />
+                        </svg>
+                        <span class="navigation-bar__text">Cart</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
