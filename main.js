@@ -1,34 +1,11 @@
+document.addEventListener('DOMContentLoaded', function() {
 /*Звездный Рейтинг*/
 
-const ratings = document.querySelectorAll('.catalog__item-rating');
-
-if (ratings.length > 0) {
-    initRatings();
-}
-
-function initRatings() {
-    let ratingActive, ratingValue;
-
-    for (let i = 0; i < ratings.length; i++) {
-        let rating = ratings[i];
-        initRating(rating);
-    }
-
-    function initRating(rating) {
-        initRatingVars(rating);
-        setRatingActiveWidth();
-    }
-
-    function initRatingVars(rating) {
-        ratingActive = rating.querySelector('.catalog__item-rating-active');
-        ratingValue = rating.querySelector('.catalog__item-rating-value');
-    }
-
-    function setRatingActiveWidth(i = ratingValue.textContent) {
-        let ratingActiveWidth = i / 0.05;
-        ratingActive.style.width = `${ratingActiveWidth}%`;
-    }
-}
+Array.from(document.querySelectorAll('.catalog__item-rating')).forEach(catalogItemRating => {
+    const ratingActive = catalogItemRating.querySelector('.catalog__item-rating-active');
+    const ratingValue = catalogItemRating.querySelector('.catalog__item-rating-value');
+    ratingActive.style.width = `${ratingValue.textContent / 0.05}%`;
+});
 
 /*Добавление карточки товара*/
 
@@ -75,4 +52,6 @@ let addCardBtn = document.querySelector('.catalog__add-card-btn');
 
 addCardBtn.addEventListener('click', function() {
     AddCard.insertAdjacentHTML('afterend', cardTemplate());
-})
+});
+
+});
